@@ -1,0 +1,83 @@
+.Header {
+    
+    background-color: #0B1320;
+    width: 100%;
+    height: 100px;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    display: flex;
+}
+/* Left side of flex and name*/
+.Header .headName{
+    flex: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 14px;
+    font-size: 21px;
+
+}
+
+.Header .headName a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Right side of flex and links*/
+.Header .rightHead {
+    flex: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.Header .rightHead .headLinks a {
+    max-height: 80px;
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    padding-right: 14px;
+}
+
+.Header .rightHead .headLinks a:hover {
+    text-decoration: underline;
+
+}
+
+/* Mobile use */
+
+.Header .rightHead button {
+    display: none;
+    margin-right: 20px;
+}
+
+.Header .rightHead #hidden {
+    display: flex;
+}
+
+@media only screen and (max-width: 720px) {
+    .Header .rightHead button{
+        display: flex;
+    }
+
+    .Header .rightHead .headLinks{
+        display: none;
+    }
+    .Header .rightHead #hidden {
+        position: absolute;
+        left: 0px;
+        top: 80px;
+        height: auto;
+        width: 100%;
+        background-color: #0B1320;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Header .rightHead #hidden a{
+        margin: 10px;
+        font-size: 25px;
+    }
+}

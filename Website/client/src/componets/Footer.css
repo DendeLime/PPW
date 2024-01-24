@@ -1,0 +1,20 @@
+.Footer {
+    background-color: #0B1320;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: auto;
+}
+
+.Footer .bottom-nav a {
+    margin: 20px;
+    color: white;
+
+}
+
+.Footer .bottom-nav a:hover{
+    color: #AFC1D0;
+    
+}

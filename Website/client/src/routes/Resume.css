@@ -1,0 +1,137 @@
+.resume-page {
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 50px;
+    background-color: #6c7f92;
+    color: #FBFAF5;
+}
+
+.resume-left {
+    flex: 1;
+    margin-left: 50px;
+    height: fit-content;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    background-color:#6c6d70;
+    box-shadow: 10px 5px 5px #000000;
+}
+.resume-left-top {
+    display: flex;
+    padding: 25px;  
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+}
+.icons svg{
+    margin-top: 1.2rem;
+    color: #FBFAF5;
+}
+.profile-info {
+    text-align: left;
+}
+.profile-info li {
+    margin-top: 1.6rem;    
+}
+.profile-info ul {
+    padding-left: 10px;
+    margin: 0;
+}
+a {
+    color: #FBFAF5;
+    font-weight: normal;
+}
+
+.resume-left-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resume-left-bottom ol {
+    align-items: center;
+    justify-content: center ;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.resume-left-bottom li {
+    padding: 5px;
+}
+.resume-left-bottom h2 {
+    margin-bottom: 0;
+}
+.left-bottom-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.resume-right {
+    flex: 3;
+    margin-right: 100px;
+    height: fit-content;
+}
+
+.resume-sections {
+    margin-left: 50px;
+}
+.resume-sections h2 {
+    font-weight: bold;
+}
+
+.box {
+    padding-left: 10%;
+    background-color:#2A2D31;
+    box-shadow: 10px 5px 5px #000000;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: clamp(200px, 80%, 1000px);
+
+}
+
+.main-info {
+    display: flex;
+}
+.main-info ul{
+    padding: 0;
+}
+
+.section-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    
+}
+
+.section-info h3, p {
+    margin: 0;
+}
+.section-title p{
+    font-weight: bold;
+}
+
+
+.description-info {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
